@@ -100,7 +100,7 @@ export default {
     },
     
     onMouseOut() {
-        this.$store.commit('enableMove', {ind:-3,parentInd:-1}) 
+        this.$store.commit('enterMove', {ind:-3,parentInd:-1}) 
         this.disableMoveMode();
         
     },
